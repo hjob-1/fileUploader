@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding:20px 0px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+}
+.table-container h2{
+  margin-left: 10px;
+}
+.form-container{
+  width: 70%;
+  margin:0 auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display:flex;
+}
+.input-container{
+  background:rgb(241, 239, 239);
+  padding:15px;
+  color:rgb(193, 190, 190);
+  border-radius: 10px;
+}
+.input-container button{
+  background:rgb(119, 184, 119);
+  border:none;
+  border-radius: 5px;
+  padding:10px 20px;
+  color:white;
+  
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td { 
+  text-align: left;
+  padding: 17px;
+  font-weight: 400;
+}
+th {
+  font-weight: 500;
+}
+tr{
+  border-bottom: 0.5px solid rgb(236, 235, 235);
+}
+tbody tr:hover{
+  background:rgb(229, 228, 228);
+}
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  text-align: left;
+}
+
+.pagination{
+  display:flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+  margin-top: 15px;
+  align-items: center;
+ 
+}
+.btn {
+ margin:0px 5px;
+ padding:7px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ background: rgb(241, 240, 240); 
+}
+
+.btn-container{
+  background:transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.delete-btn{
+  padding: 7px;
+  border-radius: 50%;
+  transition: all ease-in-out 0.2s;
+}
+.delete-btn:hover {
+  background: rgb(245, 242, 242);
+  color:red;
+}
+.notification{
+  font-size: 14px;
+  font-weight: 300;
+  align-self: center;
+  margin-left: 10px;
+}
+.notification.success{
+  color:green;
+}
+.notification.error{
+  color:red;
+}
+
+.hidden{
+  background:red;
+  color:white;
+}
+.show{
+  display: inline;
+}
+.indexs{
+  font-size: 12px;
+  margin-right: 10px;
+}
